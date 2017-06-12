@@ -17,16 +17,16 @@ When I designed, prototyped, and built a [MIDI controller](#Mixer) last year, I 
 ## Behind the Scenes
 
 ![](EForm5.jpg)
-**A visualation of my hand on the surface.**
+*A visualation of my hand on the surface.*
 
 ![](EForm6.jpg)
-**The pressure sensing layer: a grid of conductive foil and Velostat.**
+*The pressure sensing layer: a grid of conductive foil and Velostat.*
 
 ![](EForm7.jpg)
-**Exposed wiring and homemade PCBs.**
+*Exposed wiring and homemade PCBs.*
 
 ![](EForm8.png)
-**Software I made to edit and program the interface layout.**
+*Software I made to edit and program the interface layout.*
 
 Dimensions: 300mm x 300mm x 12mm
 
