@@ -16,18 +16,6 @@ When I designed, prototyped, and built a [MIDI controller](https://github.com/wi
 
 ## Behind the Scenes
 
-![](EForm5.jpg)
-*A visualation of my hand on the surface.*
-
-![](EForm6.jpg)
-*The pressure sensing layer: a grid of conductive foil and Velostat.*
-
-![](EForm7.jpg)
-*Exposed wiring and homemade PCBs.*
-
-![](EForm8.png)
-*Software I made to edit and program the interface layout.*
-
 Dimensions: 300mm x 300mm x 12mm
 
 Weight: About 500g
@@ -42,9 +30,21 @@ Pressure Resolution: 1024 levels
 
 Sample Rate: More than 60Hz
 
-Haptics: Integrated (Linear Resonant Actuator)
+Haptics: Linear Resonant Actuator
 
 Material cost: Less than $100
+
+![](EForm5.jpg)
+*A visualation of my hand on the surface.*
+
+![](EForm6.jpg)
+*The pressure sensing layer: a grid of conductive foil and Velostat.*
+
+![](EForm7.jpg)
+*Exposed wiring and homemade PCBs.*
+
+![](EForm8.png)
+*Software I made to edit and program the interface layout.*
 
 ---
 
