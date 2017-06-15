@@ -2,9 +2,9 @@
 
 ![](EForm1.jpg)
 
-E-Form is an expressive multitouch music controller, able to capture x/y position and pressure on its smooth surface. Thin and light, the controller is designed for music production as well as performance on-the-go. Using it, I produced a [few short songs](https://soundcloud.com/william-vvu/sets/balance).
-
 When I designed, prototyped, and built a [MIDI controller](https://github.com/willy-vvu/Mixer) last year, I thought 8 knobs and 8 faders would be fine. However, I quickly felt limited by its expressive power. Since then, I've been longing to produce another electronic music interface able to capture more of a musician's nuance through human touch, which is inherently multidimensional.
+
+E-Form is an expressive multitouch music controller, sensitive to x/y position as well as pressure on its smooth surface. Thin and light, the controller is designed for music production as well as performance on-the-go. Using it, I produced a [few short songs](https://soundcloud.com/william-vvu/sets/balance).
 
 ![](EForm2.jpg)
 
