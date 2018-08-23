@@ -16,17 +16,25 @@ E-Form is an expressive multitouch music controller, sensitive to x/y position a
 
 ## Behind the Scenes
 
-![](EForm5.jpg)
-*A visualation of my hand on the surface.*
+Designing and building a performant, robust, MIDI spec-compliant, thin & light product is quite difficult, often requiring custom/homemade tools and components. Below are a few images showing some of the software and hardware processes used in construction.
 
 ![](EForm6.jpg)
 *The pressure sensing layer: a grid of conductive foil and Velostat.*
+
+![](EForm5.jpg)
+*A visualation of my hand on the surface.*
+
+The raw data from the sensing layer is quite a firehose when trying to visualize in real-time. Fortunately, I wrote an interactive Processing sketch to plot the pressure on each grid intersection right as it came off the microcontroller, which was immensely helpful for diagnosing the inevitable noise/wiring issues.
 
 ![](EForm7.jpg)
 *Exposed wiring and homemade PCBs.*
 
 ![](EForm8.png)
 *Software I made to edit and program the interface layout.*
+
+Mapping pads to MIDI CC values in code was not a task I was willing to do by hand in code. Fortunately, I wrote a quick tool with an interface that allowed me to specify which regions of the controller corresponded to which MIDI messages. This mapping was then converted into lightly optimized C code which ran directly on the microcontroller.
+
+### Specs
 
 Dimensions: 300mm x 300mm x 12mm
 
