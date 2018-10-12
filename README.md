@@ -1,8 +1,8 @@
 # E-Form
 
-When I designed, prototyped, and built a [MIDI controller](https://github.com/willy-vvu/Mixer) last year, I thought 8 knobs and 8 faders would be fine. However, I quickly felt limited by its expressive power. Since then, I've been longing to produce another electronic music interface able to capture more of a musician's nuance through human touch, which is inherently multidimensional.
+The MIDI controller mediates between two vastly different worlds: the musician and computer. The hardware should capture the lightest touch yet accomodate the longest road trip. The interaction design should be musically intuitive for beginners yet efficient and usable on-stage for experts. The software must accomodate the fastest stacatto while rejecting noise in real-time. Form factor, weight, power draw, and sensor resolution all lay in delicate balance.
 
-E-Form is an expressive multitouch music controller, sensitive to x/y position as well as pressure on its smooth surface. Thin and light, the controller is designed for music production as well as performance on-the-go. Using it, I produced a [few short songs](https://soundcloud.com/william-vvu/sets/balance).
+E-Form is an expressive multitouch music controller, sensitive to x/y position as well as pressure on its smooth surface. It takes a more evolved approach than the [MIDI controller](https://github.com/willy-vvu/Mixer) I built last year, putting emphasis on the multidisciplinary design across hardware and software.
 
 ![](EForm1.jpg)
 
@@ -11,6 +11,16 @@ E-Form is an expressive multitouch music controller, sensitive to x/y position a
 ![](EForm3.jpg)
 
 ![](EForm4.jpg)
+
+![](EFormLive1.jpg)
+
+![](EFormLive2.jpg)
+
+![](EFormLive3.jpg)
+
+![](EFormLive5.jpg)
+
+![](EFormLive4.jpg)
 
 ---
 
@@ -29,7 +39,7 @@ The raw data from the sensing layer is quite a firehose when trying to visualize
 ![](EForm7.jpg)
 *Exposed wiring and homemade PCBs.*
 
-![](EForm8.png)
+![](EForm8.jpg)
 *Software I made to edit and program the interface layout.*
 
 Mapping pads to MIDI CC values in code was not a task I was willing to do by hand in code. Fortunately, I wrote a quick tool with an interface that allowed me to specify which regions of the controller corresponded to which MIDI messages. This mapping was then converted into lightly optimized C code which ran directly on the microcontroller.
